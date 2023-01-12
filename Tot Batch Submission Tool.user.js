@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tot Batch Submission Tool
 // @namespace    http://tampermonkey.net/
-// @version      2.4
+// @version      2.5
 // @description  Some controls to assist with coding ToT - Updated 1-12-2023
 // @author       David Elmkies (delmkies) / edited by jorascuc@amazon.com Filters Edit by Ryaflem@amazon.com
 // @match        fclm-portal.amazon.com/employee/*
@@ -260,7 +260,6 @@ window.globalThat.submitTot = submitTot;
 "TOM_ADMIN",
 "TOM_YARD_SPECIALISTS",
 "TOM_HOME",
-"HR_OTHER/MISC",
 "TOM_TOMY_LANE",
 "TOM_DISPATCH",
 "FIN_OTHER/MISC",
@@ -282,7 +281,6 @@ window.globalThat.submitTot = submitTot;
 "HR_GROUP _EVENTS",
 "SFT_AMCARE_OCC_IN",
 "OPS_SALARIED_ASSOC",
-"HR_SITE_ACCOMM",
 "HR_INTERVIEWS",
 "SFT_ASSOC_SFTY_COMM",
 "HR_ALL_HANDS_MEETING",
@@ -385,6 +383,9 @@ window.globalThat.submitTot = submitTot;
 "Palletize - Case",
 "Fluid Load - Tote",
 "TransferOut DockCrew",
+"TLD Assignment",
+"Add/modified Break",
+"JobReassignTraining",
 "RF Pick Transship"]
                         var funcHolder = result.laborFunctions.sort((a, b) => (a.laborFunctionName > b.laborFunctionName) ? 1 : -1 );
                         var funcAdder = []
