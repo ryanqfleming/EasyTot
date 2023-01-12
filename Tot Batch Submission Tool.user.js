@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tot Batch Submission Tool
 // @namespace    http://tampermonkey.net/
-// @version      2.6
+// @version      2.7
 // @description  Some controls to assist with coding ToT - Updated 1-12-2023
 // @author       David Elmkies (delmkies) / edited by jorascuc@amazon.com Filters Edit by Ryaflem@amazon.com
 // @match        fclm-portal.amazon.com/employee/*
@@ -392,6 +392,7 @@ window.globalThat.submitTot = submitTot;
                         var funcAdder = []
                         var funcHolderTemp = ""
                         
+                        //I can't be bothered to write an actual filter. Array is not big enough to require optimization 
                         //funcHolder pulls all the functions AFTER a process has been selected
                         //loop through funcHolder and if it is an approved path add it to funcAdd
                         //added another filter to prevent outbound dock crew to be added to transfer out dock
@@ -406,6 +407,7 @@ window.globalThat.submitTot = submitTot;
                                 funcAdder.push(funcHolder[x])
                             }
                         }
+            
                         //Switch this commented lines to turn the filter on or off
                         // this.functionOptions = result.laborFunctions.sort((a, b) => (a.laborFunctionName > b.laborFunctionName) ? 1 : -1 );
                         this.functionOptions = funcAdder;
