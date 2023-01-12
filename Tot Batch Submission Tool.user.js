@@ -6,7 +6,7 @@
 // @author       David Elmkies (delmkies) / edited by jorascuc@amazon.com Filters Edit by Ryaflem@amazon.com
 // @match        fclm-portal.amazon.com/employee/*
 // @require      https://cdn.jsdelivr.net/npm/vue@2.6.14
-//@downloadURL   https://github.com/ryanqfleming/EasyTot/blob/main/Tot%20Batch%20Submission%20Tool.user.js
+// @downloadURL   https://github.com/ryanqfleming/EasyTot/blob/main/Tot%20Batch%20Submission%20Tool.user.js
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
