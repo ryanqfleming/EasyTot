@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tot Batch Submission Tool
 // @namespace    http://tampermonkey.net/
-// @version      2.7
+// @version      3.0.1
 // @description  Some controls to assist with coding ToT - Updated 1-12-2023
 // @author       David Elmkies (delmkies) / edited by jorascuc@amazon.com Filters Edit by Ryaflem@amazon.com
 // @match        fclm-portal.amazon.com/employee/*
